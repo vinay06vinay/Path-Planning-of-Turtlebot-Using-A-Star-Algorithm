@@ -61,5 +61,35 @@ Any Library not present can be by typing below command in terminal window using 
 6. If Using, VSCode or Spyder you will also see a final plot of the map using Opencv and Matplotlib
 
 
+## Part - 2
+### Instructions to Run the Code : 
 
+#### Test Case
 
+	Enter the clearance of the robot (0-50 mm)
+	 50
+	Enter the Left RPM of the motor
+	 80
+	Enter the Right RPM of the motor
+	 80
+	Enter the x-coordinate of start node
+	 20
+	Enter the y-coordinate of start node
+	 20
+	Initial Orientation of start node of robot(Angle in multiple of 30)
+	 60
+	Enter the x-coordinate of goal node
+	 230
+	Enter the y-coordinate of goal node
+	 95
+1. First, download the package from below path after extracting the zip
+	* Part2/a_star
+2. Keep this folder "a_star" inside the source folder of your respective ros workspace.
+3. Perfrom below set of commands now 
+	* cd ~/catkin_ws
+	* catkin_make
+	* source devel/setup.bash
+	* roslaunch a_star astar.launch
+4. A new terminal window will be opened where you need to enter the coordinates as in Test Case.
+5. The turtlebot keeps moving to its goal point. The video link for the same is below:
+	* Video Link : 
