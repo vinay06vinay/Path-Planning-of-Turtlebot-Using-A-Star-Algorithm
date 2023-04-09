@@ -2,12 +2,12 @@
 1. Anuj Zore - zoreanuj - 119198957
 2. Vinay Krishna Bukka - vinay06 - 118176680
 
-#Github Link: 
+# Github Link: 
 
 https://github.com/vinay06vinay
 
-# Part - 1
-## Instructions to Run the Code : 
+## Part - 1
+### Instructions to Run the Code : 
 
 1. From the extracted zip file name "proj3p2_vinay_anuj.zip", take out the "Part1/vinay_anuj_part1.py" file from folder and open any Python IDE or terminal
 2. If Python IDE is used, please click on the run button
@@ -15,9 +15,9 @@ Note : Before running please make sure whether these libraries are installed in 
 Any Library not present can be by typing below command in terminal window using pip:
        pip install numpy
        
-## Input Format for Two Test Cases : Click on enter after entering a value at each prompt
+### Input Format for Two Test Cases : Click on enter after entering a value at each prompt
 
-### Test Case 1 : 
+#### Test Case 1 : 
 	Enter the clearance of the robot (0-50 mm)
 	 50
 	Enter the Left RPM of the motor
@@ -34,7 +34,7 @@ Any Library not present can be by typing below command in terminal window using 
 	 300
 	Enter the y-coordinate of goal node
 	 170
-### Test Case 2 : 
+#### Test Case 2 : 
 	Enter the clearance of the robot (0-50 mm)
 	 50
 	Enter the Left RPM of the motor
@@ -56,8 +56,8 @@ Any Library not present can be by typing below command in terminal window using 
 
 4. Once the code is run, a few information about the code is printed on the console and the cv2 visualisation video is recorded and saved
 5. Video will be saved under the name "A-Star.avi". Alternatively, you can find the video in below links
-    TestCase1 Video : https://drive.google.com/file/d/1Y7eHnxFMTtI78IM5azrXAueo4jW7tZWt/view?usp=sharing
-    TestCase2 Video : https://drive.google.com/file/d/1exwrX8Vh8TrgUb0uQc2RJ2Rg4S5zTUjO/view?usp=sharing
+    * TestCase1 Video : https://drive.google.com/file/d/1Y7eHnxFMTtI78IM5azrXAueo4jW7tZWt/view?usp=sharing
+    * TestCase2 Video : https://drive.google.com/file/d/1exwrX8Vh8TrgUb0uQc2RJ2Rg4S5zTUjO/view?usp=sharing
 6. If Using, VSCode or Spyder you will also see a final plot of the map using Opencv and Matplotlib
 
 
