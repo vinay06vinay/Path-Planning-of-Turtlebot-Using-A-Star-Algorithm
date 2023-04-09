@@ -89,7 +89,7 @@ Any Library not present can be by typing below command in terminal window using 
 	* cd ~/catkin_ws
 	* catkin_make
 	* source devel/setup.bash
-	* roslaunch a_star astar.launch
+	* roslaunch a_star a_star.launch
 4. A new terminal window will be opened where you need to enter the coordinates as in Test Case.
 5. The turtlebot keeps moving to its goal point. The video link for the same is below:
 	* Video Link : https://drive.google.com/file/d/17CIlDj8LbJArhJQW7Q3nB8XHnKwRrENC/view?usp=sharing
