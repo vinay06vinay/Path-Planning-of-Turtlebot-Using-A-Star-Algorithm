@@ -46,18 +46,18 @@ Any Library not present can be by typing below command in terminal window using 
 	Enter the y-coordinate of start node
 	 20
 	Initial Orientation of start node of robot(Angle in multiple of 30)
-	 60
+	 30
 	Enter the x-coordinate of goal node
 	 230
 	Enter the y-coordinate of goal node
-	 95
+	 80
 
 
 
 4. Once the code is run, a few information about the code is printed on the console and the cv2 visualisation video is recorded and saved
 5. Video will be saved under the name "A-Star.avi". Alternatively, you can find the video in below links
     * TestCase1 Video : https://drive.google.com/file/d/1Y7eHnxFMTtI78IM5azrXAueo4jW7tZWt/view?usp=sharing
-    * TestCase2 Video : https://drive.google.com/file/d/1exwrX8Vh8TrgUb0uQc2RJ2Rg4S5zTUjO/view?usp=sharing
+    * TestCase2 Video : https://drive.google.com/file/d/1OD-ReL9bnhkb9fwDvhK-K0EAQIH0NPtJ/view?usp=sharing
 6. If Using, VSCode or Spyder you will also see a final plot of the map using Opencv and Matplotlib
 
 
@@ -67,29 +67,29 @@ Any Library not present can be by typing below command in terminal window using 
 #### Test Case
 
 	Enter the clearance of the robot (0-50 mm)
-	 50
+	 20
 	Enter the Left RPM of the motor
-	 80
+	 30
 	Enter the Right RPM of the motor
-	 80
+	 30
 	Enter the x-coordinate of start node
 	 20
 	Enter the y-coordinate of start node
 	 20
 	Initial Orientation of start node of robot(Angle in multiple of 30)
-	 60
+	 0
 	Enter the x-coordinate of goal node
-	 230
+	 100
 	Enter the y-coordinate of goal node
-	 95
+	 20
 1. First, download the package from below path after extracting the zip
 	* Part2/a_star
 2. Keep this folder "a_star" inside the source folder of your respective ros workspace.
-3. Perfrom below set of commands now 
+3. Perfrom below set of commands now on the terminal window
 	* cd ~/catkin_ws
 	* catkin_make
 	* source devel/setup.bash
 	* roslaunch a_star astar.launch
 4. A new terminal window will be opened where you need to enter the coordinates as in Test Case.
 5. The turtlebot keeps moving to its goal point. The video link for the same is below:
-	* Video Link : 
+	* Video Link : https://drive.google.com/file/d/17CIlDj8LbJArhJQW7Q3nB8XHnKwRrENC/view?usp=sharing
