@@ -83,13 +83,13 @@ Any Library not present can be by typing below command in terminal window using 
 	Enter the y-coordinate of goal node
 	 20
 1. First, download the package from below path after extracting the zip
-	* Part2/a_star
-2. Keep this folder "a_star" inside the source folder of your respective ros workspace.
+	* Part2/a_star_turtlebot
+2. Keep this folder "a_star_turtlebot" inside the source folder of your respective ros workspace.
 3. Perfrom below set of commands now on the terminal window
 	* cd ~/catkin_ws
 	* catkin_make
 	* source devel/setup.bash
-	* roslaunch a_star a_star.launch
+	* roslaunch a_star_turtlebot a_star_turtlebot.launch
 4. A new terminal window will be opened where you need to enter the coordinates as in Test Case.
 5. The turtlebot keeps moving to its goal point. The video link for the same is below:
 	* Video Link : https://drive.google.com/file/d/17CIlDj8LbJArhJQW7Q3nB8XHnKwRrENC/view?usp=sharing
